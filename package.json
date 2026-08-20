@@ -1,0 +1,20 @@
+{
+  "name": "pifpaf-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Кабинет авторов PifPaf: рилсы из Instagram через Apify",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node lib/seed.js"
+  },
+  "dependencies": {
+    "apify-client": "^2.12.1",
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^12.2.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
+  }
+}
